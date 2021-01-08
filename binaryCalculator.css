@@ -1,0 +1,35 @@
+
+body{
+  width: 33%;
+}
+
+.calculatorScreen {
+  height: 48px;
+  font-size: 20px;
+  margin: 0px;
+  background: lightgray;
+  border: solid;
+}
+
+.buttonContainer > * {
+  width: 25%;
+  height: 36px;
+  font-size: 18px;
+  margin: 0px;
+  float: left;
+}
+
+.calculatorNumber {
+  background: lightgreen;
+  color: brown;
+}
+
+.calculatorFun {
+  background: darkgreen;
+  color: white;
+}
+
+.calculatorOpe {
+  background: black;
+  color: red;
+}
